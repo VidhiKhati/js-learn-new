@@ -6,3 +6,7 @@
 
  let mycreateddate = new Date(2023, 0, 23)
  console.log(mycreateddate.toDateString());
+
+ let myTimeStamp = Date.now()
+ console.log(myTimeStamp);
+ console.log(Math.floor(Date.now()/1000));
